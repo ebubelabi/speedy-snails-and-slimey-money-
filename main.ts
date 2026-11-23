@@ -1,4 +1,5 @@
 function Picksnailgreen () {
+    Snailgreen.setPosition(144, 100)
     animation.runMovementAnimation(
     Snailgreen,
     animation.animationPresets(animation.easeLeft),
@@ -19,6 +20,7 @@ function Picksnailgreen () {
     )
 }
 function Picksnailblue () {
+    Snailblue.setPosition(144, 62)
     animation.runMovementAnimation(
     Snailblue,
     animation.animationPresets(animation.easeLeft),
@@ -39,6 +41,7 @@ function Picksnailblue () {
     )
 }
 function Picksnailred () {
+    Snailred.setPosition(144, 30)
     animation.runMovementAnimation(
     Snailred,
     animation.animationPresets(animation.easeLeft),
