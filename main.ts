@@ -418,3 +418,12 @@ while (moneyTotal < 20000) {
     }
     winProfit = game.askForNumber("How much do you want back? (110%, 150%, etc)", 10)
 }
+if (moneyTotal >= 20000) {
+    game.splash("Congrats! You are now debt free!")
+    GameOver2()
+}
+if (moneyTotal <= 0) {
+    game.splash("Still in debt, loser!")
+    game.gameOver(false)
+    game.reset()
+}
