@@ -279,14 +279,14 @@ while (moneyTotal < 20000) {
         moneyTotal = moneyTotal - gambleAway * randint(0.75, 1.5)
         game.splash("You now have $" + moneyTotal)
     }
+    Snailgreen.setPosition(144, 100)
+    Snailred.setPosition(144, 30)
+    Snailblue.setPosition(144, 62)
     gambleAway = game.askForNumber("How much are you putting up?", 10)
     if (gambleAway > moneyTotal) {
         game.gameOver(false)
     }
     winProfit = game.askForNumber("How much do you want back? (110%, 150%, etc)", 10)
-    Snailgreen.setPosition(144, 100)
-    Snailred.setPosition(144, 30)
-    Snailblue.setPosition(144, 62)
 }
 if (moneyTotal <= 0) {
     game.splash("You're still in debt, loser!")
