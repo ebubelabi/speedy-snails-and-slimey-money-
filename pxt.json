@@ -3,7 +3,8 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "my extension": "pub:66386-12727-88413-96089"
+        "my extension": "pub:66386-12727-88413-96089",
+        "Test Ebube": "pub:26941-97707-81215-16170"
     },
     "files": [
         "main.blocks",
