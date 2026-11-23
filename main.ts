@@ -17,7 +17,6 @@ function Picksnailgreen () {
     5000,
     false
     )
-    Snailgreen.setPosition(144, 100)
 }
 function Picksnailblue () {
     animation.runMovementAnimation(
@@ -38,7 +37,6 @@ function Picksnailblue () {
     7000,
     false
     )
-    Snailblue.setPosition(144, 62)
 }
 function Picksnailred () {
     animation.runMovementAnimation(
@@ -59,7 +57,6 @@ function Picksnailred () {
     5000,
     false
     )
-    Snailred.setPosition(144, 30)
 }
 function WhoIsIt (MyName: string) {
     UserName = MyName
@@ -287,6 +284,9 @@ while (moneyTotal < 20000) {
         game.gameOver(false)
     }
     winProfit = game.askForNumber("How much do you want back? (110%, 150%, etc)", 10)
+    Snailgreen.setPosition(144, 100)
+    Snailred.setPosition(144, 30)
+    Snailblue.setPosition(144, 62)
 }
 if (moneyTotal <= 0) {
     game.splash("You’re still in debt, loser!")
