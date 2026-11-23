@@ -1,3 +1,10 @@
+/**
+ * Creators: Izaiah Gregory, Max Wintergerst, Ebube Owolabi
+ * 
+ * Date: 11/23/26
+ * 
+ * Purpose: To create a fun, egagaing game pursuing our own creative interests and let the user be educated a little bit on betting mechanics in life
+ */
 function Picksnailgreen () {
     animation.runMovementAnimation(
     Snailgreen,
