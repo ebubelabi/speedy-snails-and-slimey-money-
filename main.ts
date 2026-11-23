@@ -1,5 +1,4 @@
 function Picksnailgreen () {
-    Snailgreen.setPosition(144, 100)
     animation.runMovementAnimation(
     Snailgreen,
     animation.animationPresets(animation.easeLeft),
@@ -18,9 +17,9 @@ function Picksnailgreen () {
     5000,
     false
     )
+    Snailgreen.setPosition(144, 100)
 }
 function Picksnailblue () {
-    Snailblue.setPosition(144, 62)
     animation.runMovementAnimation(
     Snailblue,
     animation.animationPresets(animation.easeLeft),
@@ -39,9 +38,9 @@ function Picksnailblue () {
     7000,
     false
     )
+    Snailblue.setPosition(144, 62)
 }
 function Picksnailred () {
-    Snailred.setPosition(144, 30)
     animation.runMovementAnimation(
     Snailred,
     animation.animationPresets(animation.easeLeft),
@@ -60,6 +59,7 @@ function Picksnailred () {
     5000,
     false
     )
+    Snailred.setPosition(144, 30)
 }
 function WhoIsIt (MyName: string) {
     UserName = MyName
