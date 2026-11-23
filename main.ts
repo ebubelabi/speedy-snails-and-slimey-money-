@@ -5,6 +5,7 @@
  * 
  * Purpose: To create a fun, engaging game pursuing our own creative interests and let the user be educated a little bit on betting mechanics in life
  */
+// shows the snails racing and shows the winning snail
 function Picksnailgreen () {
     animation.runMovementAnimation(
     Snailgreen,
@@ -65,6 +66,7 @@ function Picksnailred () {
     false
     )
 }
+// user can choose their name
 function WhoIsIt (MyName: string) {
     UserName = MyName
     return MyName
@@ -208,6 +210,7 @@ let UserName = ""
 game.splash("You are in debt because of some bad decisions")
 game.splash("You need 20K to clear it")
 game.splash("Your friend lent you $100")
+// the amount of money the user starts off with
 let moneyTotal = 100
 WhoIsIt(game.askForString("What is your name, racer?"))
 game.splash("Good luck, " + UserName)
@@ -425,10 +428,12 @@ while (moneyTotal < 20000) {
     }
     winProfit = game.askForNumber("How much do you want back? (110%, 150%, etc)", 10)
 }
+// sets winning requirement (the 20k you need to clear your debt)
 if (moneyTotal >= 20000) {
     game.splash("Congrats! You are now debt free!")
     GameOver2()
 }
+// user loses game and game resets if your money is ever equal or less than zero
 if (moneyTotal <= 0) {
     game.splash("Still in debt, loser!")
     game.gameOver(false)
