@@ -2,7 +2,8 @@
     "name": "Speedy Snails and Slimey Money  - Copy",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "my extension": "pub:66386-12727-88413-96089"
     },
     "files": [
         "main.blocks",
