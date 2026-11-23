@@ -4,7 +4,8 @@
     "dependencies": {
         "device": "*",
         "Test Ebube": "pub:26941-97707-81215-16170",
-        "my extension": "pub:85954-57303-05557-19129"
+        "my extension": "pub:85954-57303-05557-19129",
+        "Extension for \"SS and SM\"": "pub:11283-31267-17239-56136"
     },
     "files": [
         "main.blocks",
