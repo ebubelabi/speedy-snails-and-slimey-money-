@@ -289,7 +289,7 @@ while (moneyTotal < 20000) {
     Snailblue.setPosition(144, 62)
 }
 if (moneyTotal <= 0) {
-    game.splash("You’re still in debt, loser!")
+    game.splash("You're still in debt, loser!")
     game.gameOver(false)
     game.setGameOverMessage(false, "Get out!")
     game.setGameOverPlayable(false, music.melodyPlayable(music.wawawawaa), true)
